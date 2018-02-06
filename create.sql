@@ -1,0 +1,1 @@
+CREATE TABLE xiciip ( ip varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , place varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL , protocol varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL , PRIMARY KEY (ip) ) ENGINE=InnoDB DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci ROW_FORMAT=DYNAMIC ;
